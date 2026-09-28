@@ -391,7 +391,7 @@ h2 em {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.nosotros-copy h2,
+.nosotros h2,
 .seccion-heading h2,
 .booking-copy h2,
 .contacto-strip h2 {
@@ -400,13 +400,13 @@ h2 em {
   margin: 13px 0 22px;
   letter-spacing: -0.02em;
 }
-.nosotros-copy h2 em,
+.nosotros h2 em,
 .seccion-heading h2 em,
 .booking-copy h2 em,
 .contacto-strip h2 em {
   color: var(--pink-strong);
 }
-.nosotros-copy > p:not(.seccion-encabezado),
+.nosotros > p:not(.seccion-encabezado),
 .seccion-heading > p:last-child,
 .contactenos-copy > p {
   max-width: 600px;
@@ -807,6 +807,10 @@ footer a:not(.brand):hover {
   transition:
     opacity 0.7s ease,
     transform 0.7s ease;
+}
+.brand img{
+  width: 50px;
+  height: 50px;
 }
 .reveal.visible {
   opacity: 1;
